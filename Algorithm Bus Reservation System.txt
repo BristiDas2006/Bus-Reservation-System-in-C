@@ -1,0 +1,85 @@
+Algorithm Bus Reservation System: 
+
+1)Start
+
+2)Initialize Data
+
+Define structure for buses (bus number, source, destination, seats).
+
+Define structure for passenger (name, age, seat number, bus number).
+
+Load bus and booking details from file (if using file handling).
+
+3)Display Main Menu
+
+View Available Buses
+
+View Available Seats
+
+Book Ticket
+
+Cancel Ticket
+
+Passenger List
+
+Exit
+
+4)If user selects View Available Buses
+
+Print bus numbers, routes, timings.
+
+Go back to menu.
+
+5)If user selects View Available Seats
+
+Input bus number.
+
+Display seat layout and mark booked seats.
+
+Go back to menu.
+
+6)If user selects Book Ticket
+
+Input passenger details (name, age, gender, etc.).
+
+Input bus number.
+
+Check available seats.
+
+If seat available → assign seat, mark booked, store passenger record.
+
+Else → show “Seat Not Available.”
+
+Save booking (to memory and file).
+
+Go back to menu.
+
+7)If user selects Cancel Ticket
+
+Input bus number and seat number (or passenger ID).
+
+Search record.
+
+If found → free the seat, delete passenger record.
+
+Else → show “No such booking.”
+
+Update file.
+
+Go back to menu.
+
+8)If user selects Passenger List
+
+Input bus number.
+
+Display all booked passengers with details (seat no, name, age).
+
+Go back to menu.
+
+9)If user selects Exit
+
+Save all data to file.
+
+End program.
+
+10)Stop
